@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+	<id>poorsso</id>
+	<name>Poor Sso</name>
+	<summary>Poor man&#39;s sso</summary>
+	<description><![CDATA[A poor mans sso using nextcloud]]></description>
+	<version>0.0.1</version>
+	<licence>agpl</licence>
+	<types>
+		<session/>
+	</types>
+	<author mail="yvesf+nextcloud@xapek.org" homepage="https://xapek.org/~yvesf">Yves</author>
+	<namespace>PoorSso</namespace>
+	<category>integration</category>
+	<category>security</category>
+	<bugs>https://example.com</bugs>
+	<dependencies>
+		<nextcloud min-version="12" max-version="12"/>
+	</dependencies>
+</info>
